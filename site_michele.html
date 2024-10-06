@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em homenagem Michele</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/bannermichele.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/michele.jpg">
+        <h1 class="body-nome">Michele Cristina Gonsalves de Melo</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                Formação Acadêmica: Pós graduação em Pedagogia, Pós em educação essencial psicologia e graduação em psicologia.</br><br>
+                Do Que trabalhou: Pedagoga de todos os técnicos.</br>
+                Para quais turmas do técnico dá aula e quais as matérias: Pedagoga e Professora de escola particular.</br>
+                <img class="body-mapa" src="Assets/mapamichele.jpg">
+                <br>
+                <br>
+                <br><a target="_blank" href="https://murilom007.itch.io/michele"><img class="body-game"
+                        src="Assets/jogomichele.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para a professora
+                    Cândida!</a>
+
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>
+                <br>Michele uma pedagoga que está sempre presente na vida dos alunos e professores ajudando. E uma boa psicóloga que sempre dá bom dia nas portas de sala de aula.</br>
+
+                Ass: Jhonatan 3°TDS</br> </br>
+
+                Para auxiliar Michele </br>
+                Você é uma ótima pedagoga, obrigado por nos ajudar sempre.</br>
+                ASS: Louise Victória Ricas Duarte 2TDS</br> </br> </p>
+                <p>Professora Michele,</br>
+                    Professore brilhantes ensinam uma profissão. Professores fascinantes ensinam para a vida.</br>
+                    ASS: Lucas Ryan 2 TDS</br> </br>
+                    “Quem tem uma pedagoga tem tudo! Quem não tem, que arrume.”</br>
+                    Leonardo Rense de Aguiar - 4º INFO</b>
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/FeedBack.jpeg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>

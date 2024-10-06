@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em homenagem Bruno</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/bannerbruno.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/fotobruno2.png">
+        <h1 class="body-nome">Bruno Henrique de Bairros</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                Formação Acadêmica: Formado em Geografia e Educação Física.</br>
+                Do Que trabalhou: Já trabalhou no Mc Donalds e em lojas e foi fora do catalogo.</br>
+                Para quais turmas do técnico dá aula e quais as matérias: 1° TDS.</br>
+                <img class="body-mapa" src="Assets/mapabuno.jpg">
+                <br>
+                <br>
+                <br><a target="_blank" href="Jogo_Bruno by Christopherr17 (itch.io)"><img class="body-game"
+                        src="Assets/Jogo_Bruno.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para a professora
+                    Cândida!</a>
+
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>
+                <br>Querido Bruno, Você é mais do que um simples professor de educação física. Você é um guia, um mentor e um exemplo vivo do impacto positivo que um educador pode ter na vida de seus alunos. Sua dedicação em ensinar não apenas movimentos, mas também valores como trabalho em equipe, respeito e superação é verdadeiramente inspiradora. Obrigado por moldar não apenas corpos, mas também mentes e corações. Seu trabalho faz toda a diferença. Continue brilhando, continue lutando e sendo essa pessoa tão maravilhosa!
+                </br>
+
+                Ass: Christopher Emanoel 3°TDS</br> </br>
+
+                
+                Professor Bruno vim dessa carta te agradecer pelas suas aulas de educação física que o senhor nos tenha passado obrigado por substitui o nosso professor que estava de atestado peço desculpa se eu não prestei atenção na aula e conversei com um colega do lado parabéns pela profissão de professor e eu sei que não é fácil o senhor é um ótimo professor não só o senhor como todos mas uma vez parabéns pela profissão e pela paciência que o senhor tem com os alunos.
+</br>
+                ASS: Edgar Soares de Almeida</br> </br> </p>
+                <p>Querido Professor Bruno,</br>
+                    Quero expressar minha profunda admiração pela sua competência como educador físico e pela forma como você vai além, nos apoiando também nas aulas de ensino técnico.
+Com gratidão e apreço.
+ASS: Erick Bernardes da Silva Santos
+</br><br>
+                    Acho você determinado a ajudar os alunos do curso técnico, e acho você muito legal.
+                     ASS: Estafany Vitória 2° TDS
+                    .</br>
+                    Obrigado Bruno por sempre ajudar o pessoal do técnico, mesmo sendo professor de educação física. É nois.
+</br>
+                    ASS: Jhonny Braga Reis 4º info</br> </br>
+                    “O profissional de educação física transforma um corpo parado em um corpo vivo, cheio de atitude e alegria.”</br>
+                    Leonardo Rense de Aguiar - 4º INFO</b>
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/FeedBack.jpeg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>

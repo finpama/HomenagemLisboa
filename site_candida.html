@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="template.css"/>
+
+    <title>Site em homenagem à Cândida Augusta</title>
+
+<style>
+
+
+* {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 5;
+
+        }
+
+        .header-background {
+            width: 100%;
+        }
+
+        .header-backlink {
+            position: absolute;
+            left: 30px;
+        }
+
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body > * { 
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-spacing {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        
+        .body-id {
+            margin: 0 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .body-pfp {
+            object-fit: cover;
+            width: 150px;
+            height:  150px;
+        }
+
+        .body-nome {
+            width: 350px;
+            margin: 0 30px;
+
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .yt-video {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .yt-text {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .body-text {
+            margin: 10px 0 20px 0 ;
+        }
+
+        .body-left {
+            text-align: justify;
+            margin: 30px 30px;
+            width: 40%;
+        }
+
+        .body-right {
+            text-align: justify;
+            margin: 30px 30px;
+            width: 40%;
+        }
+
+        .body-mindMap {
+            width: 100%;
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 5;
+
+        }
+
+        .header-background {
+            width: 100%;
+        }
+
+        .header-backlink {
+            position: absolute;
+            left: 30px;
+        }
+
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body > * { 
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-spacing {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+        
+        .body-id {
+            margin: 0 100px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+
+        .body-pfp {
+            object-fit: cover;
+            width: 150px;
+            height:  150px;
+        }
+
+        .body-nome {
+            width: 350px;
+            margin: 0 30px;
+
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .yt-video {
+            margin: auto;
+            display: block;
+            width: 85%;
+        }
+
+        .yt-text {
+            display: flex;
+            justify-content: center;
+            font-size: 14px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .body-text {
+            margin: 10px 0 15px 0 ;
+        }
+
+        .body-left {
+            text-align: justify;
+            margin: 30px 30px;
+            width: 40%;
+        }
+
+        .body-right {
+            text-align: justify;
+            margin: 30px 30px;
+            width: 40%;
+        }
+
+        .body-mindMap {
+            width: 100%;
+        }
+
+        @media screen and (max-width: 1300px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-left {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+            .body-right {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+        }
+
+        
+        }
+
+        @media screen and (max-width: 1300px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-left {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+            .body-right {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+        }
+
+        
+
+</style>
+
+</head>
+<body>
+    
+    <header class="header">
+        <img class="header-background" src="Assets/banner_geo.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" width="50px" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <div class="body-spacing"></div>
+
+        <section class="body-id">
+            <img class="body-pfp" src="Assets/pfp_candida.jpg">
+            <h1 class="body-nome">Cândida Augusta Domingues</h1>
+        </section>
+
+        <div class="body-body">
+            <div class="body-left">
+                <p class="body-text">Professora Cândida, possui bacharelado e pós graduação em geografia. A mesma já trabalhou de babá, doméstica, balconista, fiadora e é atualmente professora de geografia, lecionando em todas as turmas do 1º e 2º anos no período da manhã, e também para a turma do 3º ano A.</p>
+                    <h1>Mensagens dos Alunos:</h1>
+                
+                <p class="body-text">
+                        <br>"Querida cândida, escrevo esta carta com muito carinho, acho a senhora uma professora muito respeitável, mesmo que seja brava as vezes, a senhora ensina perfeitamente qualquer conteúdo, fazendo com que qualquer pessoa possa aprender, diferente de alguns professores que nem se preocupam em realmente ensinar como a senhora se preocupa, isso é muito bom. Espero que continue assim e só mude se for pra melhor. Com amor"
+                        <br><b>Débora, 1° TDS</b>
+                    <br>
+                        <br>"A na minha opinião a melhor professora por explicar tudo ponto por ponto, sempre nos fazendo copiar as coisas de sua matéria para que em suas provas e trabalhos a Geografia não pareça algo tão complicado pois ela sempre coloca em suas provas exatamente tudo que ela ensina para que nosso cérebro pense de maneira correta para que possamos lembrar de tudo aquilo que ela sempre ensina e nos manda copiar."
+                        <br><b>Guilherme Antonio Cordeiro, 1°TDS</b>
+                    <br>
+                        <br>"Cândida, a professora mais brava, mas também a mais incrível dessa escola, fico até sem palavras para descrever sua pessoa maravilhosa. Você é muito boa e profissional no"
+                        <br><b>Vitoria Bitencurt Rosa, 1°TDS</b>
+                    <br>
+                        <br>"A professor de geografía e otima es s ensinamento, tudo que tem que ser dito ou explicado a professor nunca deixa para a última hora de se explicar, sempre está a disposição sempre que algum aluno precisa 
+                        de ajuda.A professora é ótima em seus explicamentos, se algum aluno não entender e porque está no mundo da lua."
+                        <br><b>Nicolas Felipe sodré de Oliveira, 1° TDS</b>
+                    <br>
+                        <br>"Passando aqui para agradecer pela sua paciência e pelo comprometimento em nos orientar, suas aulas são ótimas e interessantes. É um prazer aprender com você."
+                        <br><b>Luis Felipe da Silva Farias, 2°TDS</b>
+                    <br>                    <br>
+                        <br>"Eu sou muito grata a você por nos ensinar com toda sua vontade e carinho, admiro grandemente a senhora."
+                        <br><b>Maria Julia, 2°TDS.</b>
+                    <br>
+                        <br>"Na minha opinião você está no pódio de melhores professores do colégio, sinto muita falta das suas aulas, piadas e até das broncas quando usamos azul claro para colorir os países no mapa. Sempre lembrarei e levarei você e as lembranças no coração.
+                        Com muito amor e saudades"
+                        <br><b>Daíza Maria da Silva, 4º Info</b>     
+                    <br>
+                </p>
+            </div>
+            <aside class="body-right">  
+                <h1>Suas qualidades:</h1><br>
+                <img src="Assets/mapa_candida.jpg" alt="Mapa mental da Professora" class="body-mindMap">
+                <br>
+                <br>
+                <a target="_blank" href="https://isabellaarca634gmailcom.itch.io/candida-gaby"><img class="body-game" src="Assets/game_candida.png"></a>
+                <br>
+                <a class="body-gametext">Clique na imagem acima para abir um jogo produzido para a professora Cândida!</a>
+                <br>
+                <br>
+                <a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img class="body-feedback" src="Assets/feedback.jpg"></a> 
+                <br>
+                <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+                <br>
+                <br>
+                <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/BbjrcZMmwKw?si=SC4XMjsE6e6aztjD" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <br>    
+                <a class="yt-text">Clique no vídeo acima para ver como foi o andamento do projeto!</a>
+            </aside>
+
+        </div>
+
+
+    </section>
+
+    
+    <footer class="footer"></footer>
+    
+</body>
+</html>

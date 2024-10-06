@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em homenagem Marinalva</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/anderson14.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/EditadoProf. Anderson.png">
+        <h1 class="body-nome">Anderson de Carvalho Fujikawa</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                Formação Acadêmica: Graduado em ciências sociais (bacharel e licenciatura), mestrado em ciências sociais, graduado em letras e cursando direito(4°ano). </br><br> 
+                Do Que trabalhou: trabalhou na UEM no projeto extensão (durante 3 anos) e profesor.</br><br> 
+                
+                <img class="body-mapa" src="Assets/Anderson12.jpg">
+                <br>
+                <br>
+                <br><a target="_blank" href="https://maendra.itch.io/anderson"><img class="body-game"
+                        src="Assets/Anderson13.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para o professor Anderson!</a>
+
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>
+                
+                <p>Querido Professor Anderson,</br>
+                    Caro professor Anderson, venho por meio desta mensagem destacar o quanto lhe acho incrível. O senhor ensina os seus alunos com uma confiança e sabedoria admirável, gosto também do fato do senhor utilizar exemplos do nosso cotidiano para explicar a matéria, acho incrível também o fato do senhor fazer faculdade de direito e conseguir equilibrar isso com a rotina didática do colégio. espero que o continue sendo esse excelente professor e desejo sucesso na faculdade.
+                                                                                    Atenciosamente, Geovanna 3ºTDS
+</br><br>
+Professor Anderson, gostaria de compartilhar como sua matéria de sociologia tem sido enriquecedora para mim. Através das suas aulas, aprendi a ver o mundo de uma perspectiva mais ampla e crítica. Suas explicações claras e exemplos envolventes têm tornado os conceitos complexos da sociologia acessíveis e fascinantes. Cada discussão em sala de aula me fez refletir profundamente sobre as dinâmicas sociais, cultura e poder. Obrigado por seu compromisso em nos ensinar não apenas o conteúdo, mas também a importância de questionar, analisar e compreender as complexidades do mundo ao nosso redor.
+
+Ass: Maêndra Araújo 3°TDS
+</br><br>
+Querido Professor Anderson,
+Queria te agradecer de coração por tudo que você fez por nós neste semestre. Suas aulas foram demais e aprendi muito com você. Sua paciência e jeito de ensinar fizeram toda diferença pra mim. Valeu mesmo por tudo!
+Abraços,
+Henrique, Turma 2 Tds
+</br><br>       
+                    
+                    “Professor, mais do que uma nobre profissão, ensinar é um dom e uma arte só ao alcance dos grandes mestres como você!.”</br>
+                    Heloisa Vitória de Oliveira - 4º INFO</b>
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/FeedBack.jpeg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>

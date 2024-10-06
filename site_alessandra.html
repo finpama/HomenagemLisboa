@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alessandra Lopes</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body > * { 
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height:  150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+                margin: auto;
+                display: block;
+                width: 60%;
+        }
+
+        .yt- video {
+            margin: auto;
+            display: block;
+            width: 60%;
+
+        }
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/banner.fisica.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/alessandra.jpeg">
+        <h1 class="body-nome">Alessandra Lopes <br>Carvalho </h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                <b>Professora Alessandra</b>, sempre esteve na área da educação, essa é a área que ela ama, gosta muito de dar aulas, a matéria favorita dela é a física, ela da aula nas turmas do 1º e 2° TDS.
+                <img class="body-mapa" src="Assets/Mapa - Profª Alessandra.JPG" >
+                <br>
+                <br>
+                <br><a target="_blank" href="https://murilom007.itch.io/alessandra?authuser=0"><img class="body-game" src="Assets/game_alessandra.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para a professora Josiele!</a>
+                                
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>            
+                    <br>"Querida Alessandra,
+                    A professora de física Alessandra Lopes de Carvalho, é uma excelente educadora, ela é muito estilosa e bonita, 
+                    educada, paciente às vezes, nas aulas dela eu entendo mais sobre física e matemática do que com o próprio professor de matemática.
+
+                   
+                    <br><b>Gabriela Batista dos Santos, 1º TDS
+                    </b>
+                <br>
+                    <br>
+                    Sem dúvidas uma professora forte que tem que aguentar um monte de salas barulhentas, 
+                    e ainda consegue passar uma aula ótima para todas as suas turmas. Eu admiro o ótimo trabalho que ela faz.💗
+
+                    
+                    <br><b>Gabriela Batista dos Santos, 1º TDS</b>
+                <br>
+                    <br>
+                    A Professora Alessandra é uma ótima professora, dedicação Ela é uma figura importante por sua 
+                     ótima interação com os alunos e o seu  profissionalismo merecem nosso respeito.
+
+                    
+                    <br><b>José Amauri, 2°TDS</b>
+                <br>
+                    <br>
+                    Querida professora Alessandra, sua dedicação e amor pela educação transformam vidas e
+                     inspiram corações. Obrigado por iluminar nosso caminho com seu conhecimento com todo o seu carinho.
+                    
+                    <br><b>
+                        Beatriz Vieira Boeno, 4ºInfo
+                        </b>
+                <br>
+                    <br>
+                    
+                    <br><b></b>     
+                <br>
+                    <br><a target="_blank" href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img class="body-feedback" src="Assets/feedback.jpg"></a> 
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+                    
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/BbjrcZMmwKw?si=CShPt3kyFoE3xkjw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer"></footer>
+    
+</body>
+</html>

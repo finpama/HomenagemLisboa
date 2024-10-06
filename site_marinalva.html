@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em homenagem Marinalva</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/BannerMarinalva.jpeg">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/PfpMarinalva.png">
+        <h1 class="body-nome">Marinalva de Oliveira Máximo</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                Formação Acadêmica: Está finalizando Doutorado.</br><br>
+                Do Que trabalhou: Já trabalhou na Vivo, supermercado Muffato e vendendo bolão da megasena.</br><br>
+                Para quais turmas do técnico dá aula e quais as matérias: 2º TDS = Biologia e Ciências para os
+                8º anos.</br><br>
+                <img class="body-mapa" src="Assets/MapaMarinalva.jpeg">
+                <br>
+                <br>
+                <br><a target="_blank" href="https://christopherr17.itch.io/jogo-marinalva"><img class="body-game"
+                        src="Assets/GameMarinalva.jpeg"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para a professora
+                    Marinalva!</a><br><br>
+                    <br><a target="_blank" href="https://youtu.be/BbjrcZMmwKw"><img class="body-game"
+                        src="Assets/video.png"></a>
+                <a class="body-gametext">Clique na imagem acima para assistir um video sobre o nosso projeto!</a>
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>
+                <br>Querida professora Marinalva, o que faz de você uma professora não são só suas aulas, mas o modo
+                como se
+                relaciona com seus alunos e colegas.
+                Parabéns pelo seu trabalho lindo!</br>
+
+                Ass: Núbia Rikelly Dos Santos 3°TDS</br> </br>
+
+                MARINALVA PROFESSORA MARAVILHOSA </br>
+                A professora Marinalva me inspira. Ela é uma professora dedicada que inspira seus alunos a darem
+                o
+                melhor de si, mesmo ela sendo professora. Ela mostra a cada aluno o fascinante. Sua paciência e
+                gentileza tornam compreensíveis até as ideias mais complexas. Aprender com alguém tão dedicado
+                ao
+                sucesso de seus alunos é um grande privilégio.</br>
+                ASS: José Amauri 2TDS</br> </br> </p>
+                <p>Querida Professora Marinalva,</br>
+                    Espero que esta carta encontre você bem. Estou escrevendo para expressar minha gratidão por todo
+                    o seu
+                    trabalho como nossa professora de biologia este ano. Desde o primeiro dia de aula, sua paixão
+                    pela
+                    matéria e seu compromisso com nosso aprendizado foram evidentes em cada lição que
+                    ministrou.</br>
+                    Suas aulas não são apenas informativas, mas também inspiradoras. A maneira como você relaciona
+                    os
+                    conceitos complexos da biologia com exemplos do mundo real torna tudo mais compreensível e
+                    interessante
+                    para nós. Suas histórias e experiências de campo realmente trazem a ciência à vida.</br>
+                    Além de ser uma excelente educadora, você também é uma mentora incrível. Sua paciência ao
+                    responder
+                    nossas dúvidas e sua disposição para ajudar, mesmo fora do horário de aula, não passam
+                    despercebidas.
+                    Você realmente se preocupa com nosso progresso acadêmico e pessoal, e isso significa muito para
+                    todos
+                    nós.</br>
+                    Gostaria de agradecer especialmente por incentivar meu interesse pela biologia. Antes de entrar
+                    em sua
+                    classe, eu não tinha ideia de como a biologia poderia ser fascinante. Agora, graças a você,
+                    estou
+                    considerando seguir uma carreira nessa área.</br>
+                    Seu impacto vai muito além do conteúdo das aulas; você está moldando o futuro de seus alunos de
+                    uma
+                    maneira que poucos podem. Sua dedicação e paixão são verdadeiramente inspiradoras, e sou
+                    imensamente
+                    grato por ter tido você como minha professora este ano.</br>
+                    Desejo-lhe todo o sucesso contínuo em sua carreira. Que você continue inspirando e capacitando
+                    mais
+                    mentes jovens, assim como fez comigo.</br>
+                    Com toda a gratidão,</br>
+                    José Lucas Sena Blasques Coutinho 2 TDS</br> </br>
+                    “Educação é a arma mais poderosa que você pode usar para mudar o mundo.”</br>
+                    Emily Eduarda da Silva Rosa - 4º INFO</b>
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/FeedBack.jpeg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>
