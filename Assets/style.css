@@ -1,0 +1,112 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: helvetica;
+
+}
+
+
+.header {
+	width: 100%;
+}
+
+.form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.wrap {
+	display: flex;
+}
+
+.funcDrop {
+	border: none;
+	background-color: #2F409C;
+	color: white;
+	height: 40px;
+	width: 110px;
+	padding-left: 10px;
+	border-radius: 10px 0 0 10px;
+
+	font-size: 1.2rem;
+
+}
+
+.nameDrop {
+	border: none;
+	background-color: rgb(47, 64, 156, 0.4);
+	color: #222;
+	height: 40px;
+	width: 250px;
+	padding-left: 10px;
+
+	font-size: 1.2rem;
+
+}
+
+.bt {
+	border: none;
+	background-color: #2F409C;
+	color: white;
+	height: 40px;
+	width: 100px;
+	text-align: center;
+	border-radius: 0 10px 10px 0;
+	cursor: pointer;
+
+	font-size: 1rem;
+}
+
+.footer {
+	background-color: #04061D;
+	width: 100%;
+	height: 20px;
+
+	position: absolute;
+	bottom: 0;
+}
+
+@media screen and (max-width: 600px) {
+
+	.wrap {
+		flex-direction: column;
+		align-items: center;
+	}
+
+
+	.funcDrop {
+		margin: 5px 0;
+		border-radius: 10px;
+		width: 100%;
+	}
+
+	.nameDrop {
+		margin: 5px 0;
+		border-radius: 10px;
+		width: 100%;
+
+	}
+
+	.bt {
+		margin: 5px 0;
+		border-radius: 10px;
+
+	}
+
+}
+
+@media screen and (max-width: 330px) {
+	.funcDrop {
+		font-size: 5vw;
+	}
+
+	.nameDrop {
+		font-size: 5vw;
+	}
+
+	.bt {
+		font-size: 5vw;
+	}
+}
