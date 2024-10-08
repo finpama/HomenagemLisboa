@@ -27,11 +27,6 @@ const nomes = {
     Claubio  : "site_claubio .html",
     David  : "site_david.html",
     Pacheco  : "site_pacheco.html",
-  },
-  Dev: {
-    pedro: "https://www.google.com/search?q=pedro",
-    gui: "https://www.google.com/search?q=gui",
-    ket: "https://www.google.com/search?q=ket",
   }
 
 }
@@ -83,7 +78,7 @@ nameDrop.addEventListener('focus', e => {
 bt.addEventListener('click', (e) => {
 
   if (funcDrop.value == 'Visitante' && nameDrop.value != '') {
-    window.location.href = ('https://www.google.com/search?q=Visitante')
+    window.location.href = ('erro.html')
 
   } else if (funcDrop.value == 'Visitante' && nameDrop.value == '') {
     alert('Por gentileza, insira um nome...')
