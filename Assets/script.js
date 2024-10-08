@@ -4,7 +4,7 @@ const bt = document.querySelector('.bt')
 
 const nomes = {
   Professor: {
-    damon: "https://www.google.com/search?q=damon",
+    damon: "site_damon.html",
     katia: "https://www.google.com/search?q=katia",
   },
   Dev: {
@@ -62,13 +62,13 @@ nameDrop.addEventListener('focus', e => {
 bt.addEventListener('click', (e) => {
 
   if (funcDrop.value == 'Visitante' && nameDrop.value != '') {
-    window.open('https://www.google.com/search?q=Visitante')
+    window.location.href = ('https://www.google.com/search?q=Visitante')
 
   } else if (funcDrop.value == 'Visitante' && nameDrop.value == '') {
     alert('Por gentileza, insira um nome...')
 
   } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor' && nameDrop.value != '') {
-    window.open(nomes[funcDrop.value][nameDrop.value])
+    window.location.href = (nomes[funcDrop.value][nameDrop.value])
 
   } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor'&& nameDrop.value == '') {
     alert('Por gentileza, escolha um nome...')

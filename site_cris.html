@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site em homenagem Marinalva</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/BannerCris.png">
+        <a href="index.html" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/PfpCris.jpg">
+        <h1 class="body-nome">Cristiane Rodrigues Ferreira</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                Formação Acadêmica: Bacharelada em Ciência da Computação e Pós graduada em Gestão de Projetos.</br>
+                Do Que trabalhou: Sempre no setor de informática em instituição financeira, comercial, escola profissionalizante e ensino médio técnico.</br>
+                Para quais turmas do técnico dá aula e quais as matérias:
+    <br></br>            
+                <br>1º TDS - Análise e Projeto de Sistemas.</br>
+                <br>2º TDS - Análise e Projeto de Sistemas, Banco de Dados e Programação Mobile.</br>
+                <br>3º TDS - Computação Gráfica, Jogos digitais e Programação no Desenvolvimento de Sistemas.</br>
+                <br>4º INFO - Internet e Programação Web e Banco de Dados (provisório).</br>
+                .</br>
+                <img class="body-mapa" src="Assets/MapaCristiane.png">
+                <br>
+                <br>
+                <br><a target="_blank" href=" https://viihxzr.itch.io/cris-vitoria"><img class="body-game"
+                        src="Assets/jogo.cris.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para a professora
+                    Cristiane!</a>
+
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>
+    <br></br>            
+                "Querida Cris,
+                Desde que começamos a ter aulas juntos, fiquei impressionado não apenas com sua habilidade excepcional em ensinar desenvolvimento de sistemas, mas também com sua maneira de nos inspirar a aprender. Saiba que, por mais que muitos possam não gostar de ti, aqui você tem um que gosta. De longe, do técnico a melhor professora que já ministrou aula para mim. Em apenas alguns meses, você conquistou meu respeito e admiração tanto como professora quanto como pessoa. Sua educação, sua simpatia e tranquilidade, sua paixão pela programação é contagiosa, e suas aulas são sempre repletas de lições valiosas e desafios estimulantes. Obrigado por ser uma mentora tão incrível e por fazer uma diferença tão positiva em minha jornada educacional. Estou verdadeiramente grato por ter você como minha professora. Saiba que, por mais que talvez eu não siga a área da programação, seus ensinamentos eu levarei comigo para toda a vida, assim como levarei a sua pessoa no coração. Continue sendo essa mulher tão simpática e atenciosa que é, com essa essência tão tranquila.         
+                Com sincera admiração,
+                <br>Ass:Christopher Emanoel - 3° TDS.</br>
+    <br></br>
+                              
+                Cristiane essa mensagem é para a senhora porque a vejo como uma ótima pessoa, uma professora incrível, com ótimos objetivos e perspectivas positivas em relação a nossa turma, conhecemos a senhora esse ano e já temos um carinho incrível, vamos levar seus ensinamentos do técnico para tudo que fizermos relacionado a tecnologia, computação gráfica é a matéria onde mais me identifico e gosto de aprender cada vez mais sobre 
+                <br>Ass: Vitória - 3° TDS.</br>
+    <br></br>            
+                        
+                Profª Cristiane Rodrigues
+                Queria te agradecer de coração por ser uma professora tão incrível. Suas aulas foram super divertidas e aprendi muito com você. Sempre admirei sua dedicação e jeito paciente de explicar tudo para uma sala tão teimosa. Obrigado por fazer a diferença na minha vida escolar e de meus colegas.
+                <br>Ass:Ester Soares de Jesus - 2° TDS.</br>             
+    <br></br>
+
+                Prof Cristiane Rodrigues Ferreira.
+                Eu sou muito grato em ter você como minha professora pois você é uma pessoa que se preocupa com os seus alunos em questão de atividades, notas e está sempre disposta para nos ajuda quando precisamos de um conselho ou algo do tipo. Mesmo sendo uma pessoa séria existe um lado engraçado e sorridente por dentro, muito obrigado professora Cristiane por tudo.
+                <br>Ass: Felipe Gabriel Paulo Arruda - 2°TDS.</br>
+    <br></br>            
+                
+                Prof(aª): Cristiane 
+                Eu agradeço suas ajudas nas aulas do técnico, acho você muito determinada a ajudar os alunos
+                <br>Ass: Jesuelen - 2°TDS.</br>
+    <br></br>     
+                   
+                Querida Professora [Cristiane],
+                Espero que esta carta encontre você bem. Gostaria de aproveitar esta oportunidade para expressar minha profunda gratidão por todo o seu empenho e dedicação como nossa professora de análise projetada. Desde o início do curso, sua paixão pela disciplina e seu compromisso com nosso aprendizado têm sido verdadeiramente inspiradores.
+                Suas aulas vão muito além do ensino tradicional; elas nos desafiam a pensar criticamente, a analisar projetos de maneiras que antes não imaginávamos. Sua habilidade em explicar conceitos complexos de forma clara e acessível tem sido fundamental para o nosso progresso acadêmico.
+                Além de sua competência acadêmica, valorizamos profundamente sua disponibilidade para orientação extraclasse e seu apoio constante. Suas sugestões e insights têm sido preciosos não apenas para nossos estudos, mas também para nosso desenvolvimento pessoal e profissional.
+                Você não apenas nos ensina a teoria, mas também nos prepara para enfrentar desafios reais no campo da análise de projetos. Sua experiência e orientação são inestimáveis, e somos verdadeiramente gratos por termos uma mentora tão excepcional como você.
+                Por fim, quero agradecer por inspirar em mim um amor renovado pela análise projetada. Seu entusiasmo contagioso e sua abordagem prática têm sido fundamentais para meu crescimento neste campo.
+                Desejo-lhe todo o sucesso contínuo em sua carreira. Que você continue impactando vidas e moldando futuros profissionais, assim como fez comigo.
+                Com todo o meu carinho e gratidão,
+                <br>Ass: José Lucas sena blasques coutinho - 2TDS.</br>
+   <br></br>             
+                
+                Cristiane
+                Querida professora Cristiane Rodrigues Ferreira, queremos desde já agradecer pelo seu ensino e quero agradecer pela sua amizade também pois desde o dia que a senhora falou sobre o bullying não só eu mais muitas pessoas percebeu que a senhora não era só uma professora e sim uma amiga que podemos confiar e que pode conversar que a senhora vai estar aqui pra nos ouvir e uma coisa que eu falo a senhora pode contar comigo com a Louise e com a Maria por que do mesmo jeito que a senhora ajuda a gente nós queremos ajudar a senhora também então somos muito gratos pela sua amizade e também amamos a suas aulas pois sem elas não estaríamos tendo o conhecimento que estamos tendo agora, então te amamos muito professora. 
+                <br>Ass: Laerty Augusto - 2°TDS.</br>
+    <br></br>            
+                
+                Para profª CRISTIANE RODRIGUES 
+                Obrigada por nos ensinar tão bem e ter paciência com a gente sempre, obrigada também por ser nossa amiga e por aguentar nossos desabafos e dividir pensamentos conosco, você é uma professora incrível, obrigada por tudo, amamos você.                      
+                <br>Ass: Louise Victoria Ricas Duarte - 2°TDS.</br>
+    <br></br>            
+                   Obrigada por ter muita paciência com a gente, obrigada por ser nossa amiga e sempre guardar nossos desabafos, amamos você. 
+                   <br>ASS:Maria Vitória Caetano de Oliveira. 2° TDS.</br>
+</br> </br>
+                   
+                    "Professora Cristiane, gostaria de expressar minha profunda admiração pelo seu trabalho. Sua dedicação e paixão pelo ensino são verdadeiramente inspiradoras. A maneira como você explica os conteúdos com clareza e paciência faz toda a diferença no nosso aprendizado. Além de ser uma excelente profissional, você sempre demonstra empatia e atenção com cada um dos seus alunos, o que torna suas aulas um ambiente acolhedor e motivador. Tenho muito respeito pelo seu compromisso com a educação e sou grato(a) por ter a oportunidade de aprender com alguém tão competente e carismática como você."
+                    Espero que ajude!
+                    <br>Ass:João Paulo do Amaral - 4°Info.</br>
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/feedback.jpg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>

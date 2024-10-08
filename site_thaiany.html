@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thaiany Molina Santiago</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body > * { 
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height:  150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+                margin: auto;
+                display: block;
+                width: 60%;
+            }
+
+        .yt-video {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/banner_thai.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/pfp_Thaiany Molina Santiago.jpg">
+        <h1 class="body-nome">Thaiany Molina<br>Santiago</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                <b>Pedagoga Thaiany</b> possui formação academica em Letras, Direito, Sociologia, pedagogia e trabalha atualmente sendo Coordenadora dos Técnicos. A mesma já trabalhou no Fórum de Maringa e como Terceira Vara Criminal.
+                <img class="body-mapa" src="Assets/Mapa - Thaiany.png" >
+                <br>
+                <br>
+                <br><a href="https://luinhars.itch.io/teachergame?authuser=0"><img class="body-game" src="Assets/Game-Thaiany.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um jogo produzido especialmente para a Thaiany</a>
+                                
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>            
+                    <br>"Querida Thaiany, você é uma mulher linda, forte, uma ótima professora, profissional e que claramente se dedica em tudo que se dispõe a fazer. Esta se saindo muito bem na função de coordenadora técnico e ajuda e acolhe os alunos quando necessário. Obrigada pela dedicação e esforço Thay, sua profissão é linda."
+                    <br><b>Laura Silvério, 3°TDS</b>
+                <br>
+                    <br>"Pedagoga Thaiany, acho incrível seu papel como pedagoga e admiro sua força de vontade a respeito com os alunos."
+                    <br><b>Maria Julia, 2° TDS</b>
+                <br>
+                    <br>"Thaiany, obrigada pelas aulas sobre redação e por exercer tão bem uma profissão que é essencial. Agradeço por estar nos presenteando com passeios, com as vagas de emprego em nossas áreas e ajudando a organizar nossas fichas de estagiário!"
+                    <br><b>Ketlyn Araujo, 4º Info</b>     
+                <br>
+                    <br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img class="body-feedback" src="Assets/feedback.jpg"></a> 
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+                <br>
+                <br>
+                    <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/BbjrcZMmwKw?si=w3NVRo_JOfYg_KSJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            </div>
+        </div>
+    </section>
+
+    
+    <footer class="footer"></footer>
+    
+</body>
+</html>

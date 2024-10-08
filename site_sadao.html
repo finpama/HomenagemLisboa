@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Claubio Sadao Tamura</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body > * { 
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height:  150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+                margin: auto;
+                display: block;
+                width: 60%;
+            }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .yt-video {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+
+        
+    </style>
+</head>
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/banner_sadao.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/pfp_sadao.PNG">
+        <h1 class="body-nome">Claubio Sadao<br>Tamura</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                <b>Professor Claubio</b>, mais conhecido como Sadao, Careca, Zé Gotinha, entre outros apelidos, possui formação academica em Educação Física, trabalha atualmente lecionando a matéria de Educação Física. O mesmo ministra aulas para a turma do Curso Técnico Profissionalizante, e uma turma do Técnico em Desenvolvimento de Sistemas.
+                <img class="body-mapa" src="Assets/Mapa_Sadao.png" >
+                <br>
+                <br>
+                <br><a href="https://luinhars.itch.io/sadao-heloise?authuser=0"><img class="body-game" src="Assets/game_sadao.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um jogo produzido especialmente para o professor Sadao</a>
+                                
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Mensagens dos alunos</h2>            
+                    <br>"Caro Professor Sadao. Espero que esta mensagem o encontre bem. Gostaria de expressar minha gratidão pelo seu compromisso contínuo e pela dedicação exemplar que tem demonstrado em suas responsabilidades como professor de educação física aqui na nossa escola!"
+                    <br><b>Beatriz Oliveira, 3° TDS</b>
+                <br>
+                    <br>"Querido professor Sadao, o senhor é um ótimo professor e uma ótima pessoa. Sadao, vc sempre será lembrado pelos alunos como o melhor professor de educação física que o Lisboa já teve, também será lembrado pelo seu apelido que são: Zé gotinha, Xingling, Carequinha… São apelidos carinhoso e por eles é como os alunos te reconhecem, e por Sadao também. Nos alunos temos um grande respeito e admiração pelo senhor e todos ama a sua aula."
+                    <br><b>Heliose Vitoria Oliveira Lourenço, 3° TDS</b>
+                <br>
+                    <br>"Você não é apenas um professor, mas sim um amigo que nos ensina com amor e carinho."
+                    <br><b>Pamêla Gabrielly, 2°TDS</b>
+                <br>
+                    <br>"Através dessa mensagem venho dizer que gosto muito da sua aula de ed física ela é muito boa."
+                    <br><b>Rafael gonçalves Maximiniano, 2º TDS.</b>
+                <br>
+                    <br>"Mesmo não te conhecendo muito bem, te acho gente boa. Não preciso nem elogiar a matéria, você já está careca de saber que muita gente gosta."
+                    <br><b>Daíza Maria da Silva, 4º Info</b>     
+                <br>
+                    <br><a href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img class="body-feedback" src="Assets/feedback.jpg"></a> 
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+                    <br>
+                <br>
+                    <iframe class="yt-video" width="560" height="315" src="https://www.youtube.com/embed/BbjrcZMmwKw?si=w3NVRo_JOfYg_KSJ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+        </div>
+    </section>
+
+    
+    <footer class="footer"></footer>
+    
+</body>
+</html>
