@@ -24,7 +24,7 @@ const nomes = {
     Abner  : "site_abner.html",
     Anderson  : "site_anderson.html",
     Bruno  : "site_bruno.html",
-    Claubio  : "site_claubio .html",
+    Claubio  : "site_sadao.html",
     David  : "site_david.html",
     Pacheco  : "site_pacheco.html",
   }
