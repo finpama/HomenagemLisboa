@@ -50,6 +50,24 @@ function setList() {
   
 }
 
+function visit() {
+  if (funcDrop.value == 'Visitante' && nameDrop.value != '') {
+    window.location.href = ('erro.html')
+
+  } else if (funcDrop.value == 'Visitante' && nameDrop.value == '') {
+    alert('Por gentileza, insira um nome...')
+
+  } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor' && nameDrop.value != '') {
+    window.location.href = (nomes[funcDrop.value][nameDrop.value])
+
+  } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor'&& nameDrop.value == '') {
+    alert('Por gentileza, escolha um nome...')
+
+  }else if (funcDrop.value == '' ) {
+    alert('Por gentileza, insira os dados...')
+  }
+}
+
 
 
 funcDrop.addEventListener('change', (e) => {
@@ -76,23 +94,14 @@ nameDrop.addEventListener('focus', e => {
 
 
 bt.addEventListener('click', (e) => {
+  visit()
+})
 
-  if (funcDrop.value == 'Visitante' && nameDrop.value != '') {
-    window.location.href = ('erro.html')
+document.addEventListener("keypress", (e) => {
 
-  } else if (funcDrop.value == 'Visitante' && nameDrop.value == '') {
-    alert('Por gentileza, insira um nome...')
-
-  } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor' && nameDrop.value != '') {
-    window.location.href = (nomes[funcDrop.value][nameDrop.value])
-
-  } else if (funcDrop.value == 'Dev' ||  funcDrop.value == 'Professor'&& nameDrop.value == '') {
-    alert('Por gentileza, escolha um nome...')
-
-  }else if (funcDrop.value == '' ) {
-    alert('Por gentileza, insira os dados...')
+  if (e.key === "Enter") {
+    visit()
   }
-
 })
 
 funcDrop.focus()
