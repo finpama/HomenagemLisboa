@@ -1,3 +1,7 @@
+html {
+	scroll-behavior: smooth;
+}
+
 * {
 	padding: 0;
 	margin: 0;
@@ -7,23 +11,36 @@
 
 
 .header {
+	position: fixed;
+	top: 0;
 	width: 100%;
+
+	justify-self: start;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
 }
 
 .form {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+	display: flex;
+  position: sticky;
+  top: 10vw;
+  margin-top: 20vw;
+
+
+/*  left: 50%;*/
+/*  transform: translate(-50%, 0);*/
 }
 
-.wrap {
-	display: flex;
-}
 
 .funcDrop {
 	border: none;
 	background-color: #2F409C;
+	opacity: 1;
 	color: white;
 	height: 40px;
 	width: 110px;
@@ -41,7 +58,7 @@
 
 .nameDrop {
 	border: none;
-	background-color: rgb(47, 64, 156, 0.4);
+	background-color: #A4ACD7;
 	color: #222;
 	height: 40px;
 	width: 250px;
@@ -69,14 +86,38 @@
 	background-color: #04061D;
 	width: 100%;
 	height: 20px;
-
-	position: absolute;
-	bottom: 0;
 }
+
+
+.organograma {
+	font-weight: bold;
+	font-size: 1.2rem;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
+}
+
+.text {
+	margin-top: 100px;
+	margin-bottom: 25px;
+}
+
+.kanban {
+	width: 80%;
+}
+
+.banco {
+	width: 70%;
+}
+
+
+
+
 
 @media screen and (max-width: 600px) {
 
-	.wrap {
+	.form {
 		flex-direction: column;
 		align-items: center;
 	}
@@ -115,4 +156,12 @@
 	.bt {
 		font-size: 5vw;
 	}
+
+	organograma {
+	font-weight: bold;
+	font-size: 1rem;
+
+	margin-top: 20px;
+	margin-bottom: 20px;
+
 }
