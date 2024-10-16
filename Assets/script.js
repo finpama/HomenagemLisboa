@@ -52,7 +52,7 @@ function setList() {
 
 function visit() {
   if (funcDrop.value == 'Visitante' && nameDrop.value != '') {
-    window.location.href = ('site_Visitante.html')
+    window.location.href = ('site_Visitantes.html')
 
   } else if (funcDrop.value == 'Visitante' && nameDrop.value == '') {
     alert('Por gentileza, insira um nome...')
