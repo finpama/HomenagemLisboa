@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt_br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visitante</title>
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+        }
+
+        html {
+            --main-color: rgb(56, 48, 170);
+            font-size: 20px;
+        }
+
+        .header {
+            background-color: var(--main-color);
+            width: 100vw;
+            position: fixed;
+
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            z-index: 2;
+        }
+
+        .header-banner {
+            width: 100%;
+        }
+
+        .header-backlink-img {
+            position: fixed;
+            top: 6px;
+            left: 10px;
+            width: 35px;
+            z-index: 3;
+        }
+
+        .footer {
+            background-color: var(--main-color);
+            width: 100%;
+            height: 30px;
+        }
+
+        .body {
+            padding-top: 0px;
+        }
+
+        .body>* {
+            font-family: helvetica;
+            /*border: 1px solid black;*/
+        }
+
+        .body-banner {
+            width: 100%;
+            height: 175px;
+        }
+
+        .body-pfp {
+            position: relative;
+            object-fit: cover;
+            width: 150px;
+            height: 150px;
+            top: 160px;
+            left: 90px;
+        }
+
+        .body-nome {
+            position: relative;
+            top: 55px;
+            left: 250px;
+            width: 500px;
+        }
+
+        .body-body {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 100px;
+        }
+
+        .body-info {
+            text-align: justify;
+            margin: 25px 30px;
+            width: 40%;
+        }
+
+        .body-feedback {
+            margin: auto;
+            display: block;
+            width: 55%;
+        }
+
+        .body-feedtext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+        .body-mapa {
+            position: relative;
+            top: 10px;
+            left: 5px;
+            width: 100%;
+        }
+
+        .body-game {
+            margin: auto;
+            display: block;
+            width: 60%;
+        }
+
+        .body-gametext {
+            display: flex;
+            justify-content: center;
+            font-size: 12px;
+        }
+
+
+        .body-msg {
+            text-align: justify;
+            margin: 14px 30px;
+            width: 40%;
+        }
+
+        @media screen and (max-width: 700px) {
+            .body-body {
+                flex-direction: column;
+                align-items: center;
+            }
+
+            .body-info {
+                text-align: justify;
+                margin: 10px;
+                width: 80%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <img class="header-banner" src="Assets/header.png">
+        <a href="#" class="header-backlink">
+            <img class="header-backlink-img" src="Assets/back.png" alt="Botão de voltar">
+        </a>
+    </header>
+
+    <section class="body">
+        <img class="body-pfp" src="Assets/lisboa.jpg">
+        <h1 class="body-nome">Olá, aluno</h1>
+
+        <div class="body-body">
+            <p class="body-info">
+                
+    <br></br>    
+                <br>Turmas que participarão da produção do projeto:</br>
+                <br>1º TDS.</br>
+                <br>2º TDS.</br>
+                <br>3º TDS.</br>
+                <br>4º INFO.</br>
+                </br>
+                <br>
+                <br>
+                <br><a target="_blank" href="https://isabellaarca634gmailcom.itch.io/visitantes-geovanna?authuser=0"><img class="body-game"
+                        src="Assets/visitantes.png"></a>
+                <a class="body-gametext">Clique na imagem acima para jogar um produzido especialmente para os visitantes!</a>
+
+            </p>
+
+
+            <div class="body-msg">
+                <h2>Sobre o Colégio:</h2>
+    <br></br>            
+       O Colégio Estadual Antônio Francisco Lisboa, localizado em Sarandi, Paraná, foi fundado com o objetivo de atender à demanda 
+    educacional da comunidade local. O nome do colégio homenageia Antônio Francisco Lisboa, mais conhecido como "Tiradentes", 
+    um importante líder da Inconfidência Mineira, simbolizando a luta pela liberdade e pela educação.
+
+    <br></br>
+    A instituição começou suas atividades em um contexto de crescimento populacional e urbanização na região, que exigia 
+    a ampliação das oportunidades educacionais. Com o apoio do governo do estado e da comunidade, o colégio foi estabelecido 
+    para oferecer educação de qualidade e formar cidadãos conscientes e críticos.
+       
+    <br></br>                                
+    Desde sua fundação, o colégio tem se empenhado em promover uma educação inclusiva e diversificada, adaptando-se às 
+    necessidades dos alunos e às demandas do mercado de trabalho. Com o passar dos anos, o colégio se consolidou como
+     uma referência na educação pública da região, desenvolvendo projetos que envolvem a participação dos estudantes e da comunidade.
+             
+    <br></br>
+    Hoje, o Colégio Estadual Antônio Francisco Lisboa continua a desempenhar um papel fundamental na formação de jovens, oferecendo 
+    não apenas um currículo acadêmico, mas também atividades culturais, esportivas e sociais, contribuindo para o desenvolvimento 
+    integral de seus alunos.
+
+    <br></br>            
+  
+                    <br>
+                    <br><a target="_blank"
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSfDTFfqxD1qoreGLU2mE3d34LdHnoqIKJhnXtQGh7RhNq2RBQ/viewform?embedded=true"><img
+                            class="body-feedback" src="Assets/feedback.jpg"></a>
+                    <a class="body-feedtext">Clique na imagem acima para dar sua opinião sobre nosso projeto!</a>
+
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer"></footer>
+
+</body>
+
+</html>
